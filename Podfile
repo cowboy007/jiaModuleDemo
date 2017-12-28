@@ -2,7 +2,11 @@
 target 'jiaModuleDemo’ do
 platform :ios, "7.0"
 
-pod 'AFNetworking', '~> 3.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/wujunyang/WjySpecs.git'
+#platform :ios, "7.0"
+
+pod 'AFNetworking', '~> 3.0.0'
 pod 'ReactiveCocoa', '~> 2.5'
 pod 'SDWebImage', '~> 3.7.5'
 pod 'JSONModel', '~> 1.0.1'
